@@ -12,7 +12,7 @@ const ShoppingListWithImmer = () => {
           notes: 'Preferably organic'
         }
       },
-      // Add more initial items if needed
+
     ]);
   
     const addItem = (newItem) => {
@@ -39,8 +39,6 @@ const ShoppingListWithImmer = () => {
         });
     };
 
-
-  
     return (
         <div>
             <h1>Shopping List</h1>
