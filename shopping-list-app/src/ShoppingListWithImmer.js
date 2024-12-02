@@ -47,6 +47,7 @@ const ShoppingListWithImmer = () => {
                 <li key={item.id}>
                 {item.name} - {item.quantity} ({item.details.category})
                 <button onClick={() => removeItem(item.id)}>Remove</button>
+                <button onClick={() => updateItem(item.id, { name: 'Updated Name' })}>Update</button>
                 {/* Add more buttons/inputs for updating items */}
                 </li>
             ))}
